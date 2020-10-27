@@ -1,0 +1,174 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 1300px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h5 {
+    color: teal;
+    margin: 0;
+}
+
+#navbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+#navbar h1 {
+    padding-top: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#library-img img {
+    width: 100%;
+    height: 420px;
+}
+
+#booksnauthors {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.books {
+    width: 50%;
+    margin-left: 3%;
+}
+
+.authors {
+    width: 50%;
+}
+
+.books-heading, .authors-heading {
+    width: 90%;
+    border-bottom: 1px solid #000;
+}
+
+#booksnauthors {
+    color: #555555;
+}
+
+
+#booksnauthors ol {
+    width: 90%;
+    margin-top: 3%;
+    padding-left: 0;
+}
+
+#booksnauthors li {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#booksnauthors li:hover {
+    background-color: #f6f5f5;
+}
+
+.fa-edit {
+    color: orange;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+.fa-plus {
+    color: #07689f;
+}
+
+.create-book, .create-author {
+    margin-top: 7%;
+}
+
+.create-form {
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.create-form input {
+    width: 100%;
+}
+
+.create-form label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 4%;
+}
+
+input, label {
+    display:block;
+}
+
+.add-button {
+    border: none;
+    background-color: transparent;  
+}
+
+.create-author-heading, .create-book-heading {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+}
+
+.author-exit, .book-exit {
+    margin-left: 42%;
+}
+
+.create-button {
+    border: none;
+    background-color: #07689f;
+    border-radius: 5px; 
+    margin-top: 3%;
+    margin-left: 78%;
+    width: 85px;
+    color: white;
+}
+
+.underline {
+    border-bottom: 2px solid teal;
+}
+
+.selection {
+    position: relative;
+}
+
+.selection:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    color: #bbbfca;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #bbbfca;
+}
+
+.selection:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    color: #bbbfca;
+    font-size: 13px;
+    padding-right: 1em;
+    position: absolute;
+    top: 4px;
+    right: 25px;
+}
+
+
+
+
+
+
+
+

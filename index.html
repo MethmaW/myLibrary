@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--css-stylesheet-links-->
+      <link rel="stylesheet" href="styles.css">
+  
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/1a180c1f59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section id="section-one">
+        <div id="navbar"><h1>My Library</h1></div>
+    </section>
+
+    <section id="section-two">
+        <div id="library-img"><img src="library-img.jpeg" alt="Library Image"></div>
+    </section>
+
+    <section id="section-three">
+
+        <div id="booksnauthors">
+
+            <!-- ****************adding a book*********************** -->
+            <div class="books">
+                <div class="books-heading">
+                    <h2>Books</h2>
+                </div>
+                <div class="book-list">
+                    <ol>
+                        <li>1. Book 1 title <div><i class="far fa-edit"></i> <i class="far fa-trash-alt"></i></div></li>
+                        <li>2. Book 2 title</li>
+                        <li>3. Book 3 title</li>
+                        <li>4. Book 4 title</li>
+                    </ol>
+                </div>
+                <button class="add-button"><i class="fas fa-plus"></i>  Add Book</button>
+
+                <!-- ****************creating a book*********************** -->
+                <div class="create-book">
+                    <div class="create-book-heading">
+                        <div class="underline"><h5>Create Book</h5></div>
+                        <i class="far fa-times-circle book-exit"></i>
+                    </div>
+                    <div class="create-form">
+                        <label for="input">Title of the Book</label>
+                        <input type="text">
+                        <label for="input">ISBN</label>
+                        <input type="text">
+                        <label for="input">Author</label>
+                        <!-- <div><i class="fas fa-times"></i><i class="fas fa-grip-lines-vertical"></i><i class="fas fa-caret-down"></i></div> -->
+                        <div class="selection"></div> <input type="text">
+                        <button class="create-button">Create</button>
+                    </div>
+                </div>
+            </div>
+
+              <!-- ****************adding an author*********************** -->
+            <div class="authors">
+                <div class="authors-heading">
+                    <h2>Authors</h2>
+                </div>
+                <div class="authors-list">
+                    <ol>
+                        <li>1. Author 1 name</li>
+                        <li>2. Author 2 name <div><i class="far fa-edit"></i> <i class="far fa-trash-alt"></i></div></li>
+                        <li>3. Author 3 name</li>
+                    </ol>
+                </div>
+                <button class="add-button"><i class="fas fa-plus"></i>  Add Book</button>
+
+
+                <!-- ****************creating an author*********************** -->
+                <div class="create-author">
+                    <div class="create-author-heading">
+                        <div class="underline"><h5>Create Author</h5></div>
+                        <i  class="far fa-times-circle author-exit"></i>
+                    </div>
+                    <div class="create-form">
+                        <label for="input">Name of Author</label>
+                        <input type="text">
+                        <button class="create-button">Create</button>
+                    </div>
+                </div>
+
+               
+               
+            </div>
+
+        </div>
+    </section>
+
+
+    
+
+
+    <!--bootstrap jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
